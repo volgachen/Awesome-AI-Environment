@@ -34,4 +34,5 @@ dependencies:
     - pytorch_lightning==1.6.5
     - diffdist==0.1
     - open-clip-torch==2.0.2
+    - timm==0.6.11
     - boto3
