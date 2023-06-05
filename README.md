@@ -7,6 +7,7 @@ This repo contains tools and instructions to run several diffusion-related codes
 conda env create -f diffusion_env.yaml
 conda activate diffusion
 pip install -r requirements.txt --no-deps
+pip install -r detectron_req.txt
 
 # install the latest version of detectron2
 git clone https://github.com/facebookresearch/detectron2.git
