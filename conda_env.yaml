@@ -1,0 +1,22 @@
+name: awesome_env
+channels:
+  - pytorch
+  - nvidia
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+dependencies:
+  - python==3.10.0
+  - pytorch==1.12.1
+  - torchvision==0.13.1
+  - torchaudio==0.12.1
+  - cudatoolkit=11.3
+  # - gcc_linux-64=9.3.0
+  # - gxx_linux-64=9.3.0
+  - gcc=8.5.0
+  - gxx=8.5.0
+  - scikit-image
+  - scikit-learn
+  - ninja
