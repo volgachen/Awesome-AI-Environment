@@ -2,7 +2,13 @@
 
 AI research relies much on learning codes written by other experienced researchers. However, many of open-source codes requires divergent environments. The environment configuration files inside are usually too strict to be compatible with each other. In this repo, we build a general conda environment that can cover as much repositories as possible.
 
-Currently Support:
+## We wish you can contribute
+Feel free to experiment with other repos, and pull requests.
+- Set up a conda environment the same as us.
+- Check if other repos can run directly. If not, try make minimal changes on existing packages.
+- Provide short guidance. This is especially important if the pipeline under our env is different from the official tutorial.
+
+## Repos We Support
 ### [Detectron2](https://github.com/facebookresearch/detectron2)
 Detectron has been installed in an editable way. You may edit and import it following official instructions.
 ### [Detrex](https://github.com/IDEA-Research/detrex)
@@ -23,7 +29,7 @@ PYTHONPATH=/path/to/repo:$PYTHONPATH
 ### [DragGAN](https://github.com/XingangPan/DragGAN)
 ### [Obj2Seq](https://github.com/CASIA-IVA-Lab/Obj2Seq)
 
-## Environment
+## Environment Setup
 
 ```
 conda env create -f conda_env.yaml
@@ -41,5 +47,4 @@ pip install panopticapi@https://github.com/cocodataset/panopticapi/archive/maste
 pip install ODISE/third_party/mask2former --no-deps
 # we take the env above, the official one from https://github.com/facebookresearch/Mask2Former.git has not been validated
 ```
-
 - *Chinese users may refer [here](https://blog.51cto.com/u_15966109/6082769) for faster installations with mirror source.*
