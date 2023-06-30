@@ -24,30 +24,30 @@ AI research relies much on learning codes written by other experienced researche
     <tr valign="top">
       <td>
         <b>Detectron2 Based</b>
-        <ul style="list-style-type:none;margin:0px;padding:0px;">
-        <li><input type="checkbox" checked="true" /><a href="#detectron2">Detectron2</a></li>
-        <li><input type="checkbox" checked="true" /><a href="#detrex">Detrex</a></li>
-        <li><input type="checkbox" checked="true" /><a href="#odise">ODISE</a></li>
+        <ul>
+        <li>- [x] <a href="#detectron2">Detectron2</a></li>
+        <li>- [x] <a href="#detrex">Detrex</a></li>
+        <li>- [x] <a href="#odise">ODISE</a></li>
         </ul>
         <b>Others</b>
         <ul style="list-style-type:none;margin:0px;padding:0px;">
-        <li><input type="checkbox"/><a href="https://github.com/facebookresearch/segment-anything">SAM</a></li>
+        <li>- [ ] <a href="https://github.com/facebookresearch/segment-anything">SAM</a></li>
         </ul>
       </td>
       <td>
         <b>Diffusion Based</b>
-        <ul style="list-style-type:none;margin:0px;padding:0px;">
-        <li><input type="checkbox"/><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></li>
+        <ul>
+        <li>- [ ] <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></li>
         </ul>
         <b>GAN Based</b>
         <ul style="list-style-type:none;margin:0px;padding:0px;">
-        <li><input type="checkbox" checked="true" /><a href="#draggan">DragGAN</a></li>
+        <li>- [x] <a href="#draggan">DragGAN</a></li>
         </ul>
       </td>
       <td>
         <b>ChatGPT Based</b>
         <ul style="list-style-type:none;margin:0px;padding:0px;">
-        <li><input type="checkbox" checked="true" /><a href="#taskmatrix">TaskMatrix</a></li>
+        <li>- [x] <a href="#taskmatrix">TaskMatrix</a></li>
         </ul>
       </td>
       <td>
