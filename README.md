@@ -37,7 +37,7 @@ AI research relies much on learning codes written by other experienced researche
       <td>
         <b>Diffusion Based</b>
         <ul>
-        <li>- [ ] <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></li>
+        <li>- [x] <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></li>
         </ul>
         <b>GAN Based</b>
         <ul style="list-style-type:none;margin:0px;padding:0px;">
@@ -107,5 +107,15 @@ cd ODISE
 PYTHONPATH=/path/to/repo:$PYTHONPATH 
 ```
 ### [TaskMatrix](https://github.com/microsoft/TaskMatrix)
+### [Stable-Diffusion-WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- *Validated at 394ffa7*
+
+We only demonstrate the easiest way to launch webui.
+
+Note that we must replace `REQS_FILE` so that it would not automatically update our environment.
+```
+export REQS_FILE=/PATH-TO-Awesome-AI-Environment/requirements.txt
+python launch.py --listen --port 4001 --disable-safe-unpickle --share
+```
 ### [DragGAN](https://github.com/XingangPan/DragGAN)
 ### [Obj2Seq](https://github.com/CASIA-IVA-Lab/Obj2Seq)
