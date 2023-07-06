@@ -28,6 +28,7 @@ AI research relies much on learning codes written by other experienced researche
         <li>- [x] <a href="#detectron2">Detectron2</a></li>
         <li>- [x] <a href="#detrex">Detrex</a></li>
         <li>- [x] <a href="#odise">ODISE</a></li>
+        <li>- [x] <a href="#deepsolo">DeepSolo</a></li>
         </ul>
         <b>Others</b>
         <ul style="list-style-type:none;margin:0px;padding:0px;">
@@ -37,7 +38,7 @@ AI research relies much on learning codes written by other experienced researche
       <td>
         <b>Diffusion Based</b>
         <ul>
-        <li>- [x] <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">stable-diffusion-webui</a></li>
+        <li>- [x] <a href="#stable-diffusion-webui">stable-diffusion-webui</a></li>
         </ul>
         <b>GAN Based</b>
         <ul style="list-style-type:none;margin:0px;padding:0px;">
@@ -95,16 +96,25 @@ Detectron has been installed in an editable way. You may edit and import it foll
 ### [Detrex](https://github.com/IDEA-Research/detrex)
 We consider Detrex as a code project, and would not link it to `site-packages`. Therefore, the following example codes only ensures that you can run detrex inside the folder.
 ```
-git clone https://github.com/IDEA-Research/detrex.git
+git clone git@github.com:IDEA-Research/detrex.git
 cd detrex
 python setup.py build_ext --inplace
+PYTHONPATH=/path/to/repo:$PYTHONPATH python tools/train_net.py --config-file ${CONFIG_FILE} --num-gpus ${NUM_GPUS}
 ```
 ### [ODISE](https://github.com/NVlabs/ODISE)
 We consider ODISE as a code project, and would not compile and link it to `site-packages`. Therefore, the following example codes only ensures that you can run ODISE inside the folder.
 ```
-git clone https://github.com/NVlabs/ODISE.git
+git clone git@github.com:NVlabs/ODISE.git
 cd ODISE
-PYTHONPATH=/path/to/repo:$PYTHONPATH 
+PYTHONPATH=/path/to/repo:$PYTHONPATH python tools/train_net.py --config-file ${CONFIG_FILE} --num-gpus ${NUM_GPUS}
+```
+### [DeepSolo](https://github.com/ViTAE-Transformer/DeepSolo)
+We consider ODISE as a code project, and would not compile and link it to `site-packages`. Therefore, the following example codes only ensures that you can run ODISE inside the folder.
+```
+git clone git@github.com:ViTAE-Transformer/DeepSolo.git
+cd DeepSolo
+python setup.py build_ext --inplace
+PYTHONPATH=/path/to/repo:$PYTHONPATH python tools/train_net.py --config-file ${CONFIG_FILE} --num-gpus ${NUM_GPUS}
 ```
 ### [TaskMatrix](https://github.com/microsoft/TaskMatrix)
 ### [Stable-Diffusion-WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
