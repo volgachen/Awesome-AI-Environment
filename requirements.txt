@@ -118,3 +118,9 @@ shapely==2.0.0
 # timm==0.5.4
 # tqdm==4.53.0
 ###################################
+# for shadowsocksr, taskmatrix
+shadowsocksr-cli
+httpx[sock]
+wget
+openai
+langchain==0.0.225 # currently support this, we will also follow new versions

@@ -116,7 +116,11 @@ cd DeepSolo
 python setup.py build_ext --inplace
 PYTHONPATH=/path/to/repo:$PYTHONPATH python tools/train_net.py --config-file ${CONFIG_FILE} --num-gpus ${NUM_GPUS}
 ```
-### [TaskMatrix](https://github.com/microsoft/TaskMatrix)
+### [TaskMatrix](https://github.com/volgachen/TaskMatrix)
+Please click the heading and follow our forked branch, the difference is:
+- Adapt to the newest version of langchain (v0.0.225)
+- Allow socks5 proxy to reach openai
+
 ### [Stable-Diffusion-WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - *Validated at 394ffa7*
 
